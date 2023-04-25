@@ -19,9 +19,8 @@ public class Parole {
 	}
 	
 	public List<String> getElenco() {
-		LinkedList<String> lista = new LinkedList<>(parole);
-		Collections.sort(lista);
-		return lista;
+		Collections.sort(parole);
+		return parole;
 	}	
 	
 	
